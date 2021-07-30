@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    background-color:   hsl(218, 28%, 13%);
+    color: hsl(0, 0%, 100%);
+}
+
+.navbar{
+    background-color: hsl(216, 53%, 9%);
+}
+
+.logo1{
+  padding-top: 40px;
+  padding-left: 20px;
+}
+
+.nav1{
+    float: left;
+}
+
+.nav2{
+    float: right;
+    padding-top: 70px;
+}
+
+.nav2>a{
+    color: white;
+}
+
+#a1 {
+    padding: 30px;
+}
+#a2{
+    padding: 30px;
+} 
+#a3{
+    padding: 30px;
+}
+
+.navimg{
+    width: 500px;
+}
+
+.sec1{
+    text-align: center;
+    background-color: hsl(216, 53%, 9%);
+    background-image: url("images/bg-curvy-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 150%;
+    background-origin: content-box, content-box;
+}
+
+.sec1>h3{
+    font-size: 40px;
+    font-weight: 600;
+    padding-left: 250px;
+    padding-right: 250px;
+    
+}
+
+.sec1>p{
+    font-size: 20px;
+    padding-left: 350px;
+    padding-right: 350px;
+    
+}
+
+.sec1>button{
+   border-radius: 20px;
+   padding: 10px;
+   width: 240px;
+   border: none;
+   background-color: hsl(198, 60%, 50%);
+}
+
+.fourboxes{
+    background-color: hsl(218, 28%, 13%);
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.box1{
+    grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row: 1;
+  padding: 110px;
+  padding-top: 50px;
+}
+
+.box2{
+    grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row: 1;
+  padding: 110px;
+  padding-top: 50px;
+}
+
+.box3{
+    grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row: 2;
+  padding: 110px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+
+.box4{
+    grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row: 2;
+  padding: 110px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+.sec3{
+    background-color: hsl(218, 28%, 13%);
+    display: flex;
+}
+
+.people{
+    padding-left: 50px;
+    flex: 50%;
+}
+
+#peopletext{
+    padding-top: 50px;
+}
+
+.people>h3{
+    font-size: 40px;
+}
+
+.people>p{
+    padding-right: 50px;
+
+}
+
+.people>a{
+    color: blue;
+}
+
+.column {
+    float: left;
+    width: 30%;
+    padding:  20px;
+}
+  
+ 
+.row {
+  margin: 0 -5px;
+  padding:  20px;
+  padding-left: 30px;
+}
+  
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card {
+  
+    padding: 20px;
+    text-align: center;
+    background-color: hsl(219, 30%, 18%);
+}
+
+.card{
+    font-size: 14px;
+    padding-left: 20px;
+}
+.card>img{
+    border-radius: 90%;
+    width: 25px;
+}
+
+.card>a{
+    float: right;
+    padding-right: 15px;
+}
+
+.box{
+    box-shadow:20px 20px 50px 15px black ;
+    border-radius: 5px;
+    text-align: center;
+    
+    background-color: hsl(217, 28%, 15%);
+    margin: auto;
+    width: 60%;
+    padding: 50px;
+}
+
+.box>h3{
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;;
+    font-family: 100;
+}
+
+#email{
+   border-radius: 50px;
+   width: 200px;
+   padding: 10px;
+   border: none;
+   font-size: 10px;
+}
+
+.box>button{
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    font-size: 10px;
+    font-weight: 500;
+    color: white;
+    background-color: hsl(198, 60%, 50%);
+}
+
+.grabg{
+    background: linear-gradient(to bottom, hsl(218, 28%, 13%) 0%,hsl(218, 28%, 13%) 50%,#000000 50%,hsl(216, 53%, 9%) 50%,hsl(216, 53%, 9%)100%);
+    
+}
+
+.last{
+    background-color: hsl(216, 53%, 9%);
+    padding: 50px;
+    
+}
+
+.block>div{
+    display: inline-block;
+    font-family:'Open Sans', sans-serif ;
+    
+}
+
+.b1{
+    display: inline-block;
+    text-align: justify;
+    width: 300px;
+    height: 90px;
+}
+
+
+.b2{
+  padding-left: 120px;
+}
+
+.b3{
+    padding-bottom: 20px;
+    padding-left: 100px;
+}
+
+.b4{
+    padding-left: 120px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    border: 2px solid #fdfdfd;
+}
+
+.fa-facebook {
+    background:  hsl(216, 53%, 9%);
+    color: white;
+}
+  
+.fa-twitter {
+    background:  hsl(216, 53%, 9%);
+    color: white;
+}
+.fa-instagram {
+    background:  hsl(216, 53%, 9%);
+    color: white;
+}
+
+.logos{
+    padding-right: 90px;
+}
+
+
+
+@media (max-width: 375px){
+    .logo1{
+        width: 50px;
+        padding-left: 10px;
+        
+    }
+
+    .nav2{
+        padding-top: 0px;
+    }
+
+    .navbar{
+        display: inline-block;
+        width: 315px;
+    }
+    .sec1{
+        width: 250px;
+    }
+
+    .sec3 {
+        background-color: hsl(218, 28%, 13%);
+        display: block;
+    }
+    .people {
+        padding-left: -2px;
+        flex: 0%;
+        width: 250px;
+
+    }
+    .navimg {
+        width: 255px;
+    }
+    .column {
+        float: left;
+        width: 100%;
+        padding:  0px;
+    }
+    
+    .fourboxes{
+        display: block;
+    }
+
+    .box1{
+        padding: 45px;
+    }
+    .box2{
+        padding: 45px;
+    }
+    .box3{
+        padding: 45px;
+    }
+    .box4{
+        padding: 45px;
+    }
+    .people>h3 {
+        font-size: 20px;
+    }
+    .sec1>p {
+        font-size: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .sec1>h3 {
+        font-size: 20px;
+        font-weight: 600;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .b1{
+        display: block;
+        text-align: none;
+        width: 280px;
+        height: 90px;
+    }
+
+    .b1>p{
+        width: 250px;
+        padding-left: 10px;
+    }
+    
+   
+    .row {
+        margin: 0 0px;
+        padding: 0px;
+        padding-left: 0px;
+    }
+    
+    .card{
+        padding:2px;
+        width: 250px;
+    }
+
+    .box{
+        padding: 25px;
+    }
+    .b2 {
+        padding-left: 5px;
+    }
+    .last {
+        background-color: hsl(216, 53%, 9%);
+        padding: 00px;
+    }
+    .grabdb{
+        width: 280px;
+        margin: 0px;
+        padding-bottom: 10px;
+    }
+
+    .block{
+        text-align: center;
+    }
+}
